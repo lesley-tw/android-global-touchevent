@@ -18,7 +18,7 @@ public class GlobalTouchService extends Service implements OnTouchListener{
 
 	private String TAG = this.getClass().getSimpleName();
 	// window manager 
-	private WindowManager mWindowManager;
+	private WindowManager mWindowManagerA;
 	// linear layout will use to detect touch event
 	private LinearLayout touchLayout;
 	@Override
