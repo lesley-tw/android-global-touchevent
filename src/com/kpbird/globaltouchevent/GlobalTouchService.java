@@ -45,7 +45,6 @@ public class GlobalTouchService extends Service implements OnTouchListener{
 	        		30, // width of layout 30 px
 	        		WindowManager.LayoutParams.MATCH_PARENT, // height is equal to full screen
 	                WindowManager.LayoutParams.TYPE_PHONE, // Type Ohone, These are non-application windows providing user interaction with the phone (in particular incoming calls).
-	                WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE, // this window won't ever get key input focus  
 	                PixelFormat.TRANSLUCENT);      
          mParams.gravity = Gravity.LEFT | Gravity.TOP;   
  		Log.i(TAG, "add View");
