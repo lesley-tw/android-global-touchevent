@@ -20,7 +20,7 @@ public class GlobalTouchService extends Service implements OnTouchListener{
 	// window manager 
 	private WindowManager mWindowManagerB;
 	// linear layout will use to detect touch event
-	private LinearLayout touchLayout;
+	private LinearLayout touchLayoutA;
 	@Override
 	public IBinder onBind(Intent arg0) {
 		return null;
