@@ -16,7 +16,7 @@ import android.widget.LinearLayout.LayoutParams;
 
 public class GlobalTouchService extends Service implements OnTouchListener{
 
-	private String TAG = this.getClass().getSimpleName();
+	private String TAGBBB = this.getClass().getSimpleName();
 	// window manager 
 	private WindowManager mWindowManagerB;
 	// linear layout will use to detect touch event
